@@ -3,7 +3,7 @@ function rollDice() {
     let results = "";
   
     if (diceType === "d6") {
-      results = Math.floor(Math.random() * 8) + 0;     // from MDN 
+      results = Math.floor(Math.random() * 6) + 1;     //  for testing results = Math.floor(Math.random() * 8) + 0;
       if (results >= 7) {
         console.error("too high");
       }
@@ -13,7 +13,7 @@ function rollDice() {
 
       }
     } else if (diceType === "d10") {
-      results = Math.floor(Math.random() * 12) + 0;   
+      results = Math.floor(Math.random() * 10) + 1;   //  for testing results = Math.floor(Math.random() * 12) + 0;
       
       if (results >= 11) {
         console.error("too high");
