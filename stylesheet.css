@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/372/434/original/hand-drawn-seamless-pattern-of-board-game-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+      
+}
+
+  header {
+
+    height: 50px;
+  }
+  
+
+  .container {
+    width: 600px;
+    margin: 600px;
+    align-self: center;
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+
+  .logo {
+
+    align-content: center;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, .8);
+  }
+  
+  select {
+    width: 200px;
+    text-align: center;
+  }
+
+  #dice-type {
+    color: rgb(99, 48, 0);
+    text-align: center;
+    align-content: center;
+
+  }
+  
+  button {
+    background-color: #421b00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    align-content: center;
+  }
+  
+  #results {
+    font-size: 16px;
+  }
+  
+
+footer {
+  height: 100px;
+  background-color: black;
+  color: white; 
+  text-align: center;
+  padding: 0;
+  
+}
